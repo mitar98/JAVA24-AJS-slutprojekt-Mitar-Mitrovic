@@ -1,12 +1,32 @@
-# React + Vite
+# JAVA24-AJS-slutprojekt - Mitar Mitrovic
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Projektbeskrivning
 
-Currently, two official plugins are available:
+Detta är mitt slutprojekt i kursen där jag byggt en Scrum Board med React och Firebase. Användaren kan:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Lägga till team members med roller: UX, Frontend, Backend
+- Skapa uppgifter som tilldelas en kategori och får en timestamp
+- Tilldela uppgifter till medlemmar (bara matchande roller)
+- Ändra status från "new" → "in progress" → "finished"
+- Filtrera och sortera uppgifter
+- Radera färdiga uppgifter
+- All data sparas i Firebase Firestore
 
-## Expanding the ESLint configuration
+## Tekniker
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- Firebase Firestore
+- GitHub Pages för deployment
+
+##  Starta lokalt
+
+1. Klona repot:
+   ```bash
+   git clone https://github.com/mitar98/JAVA24-AJS-slutprojekt-Mitar-Mitrovic.git
+   cd JAVA24-AJS-slutprojekt-Mitar-Mitrovic
+2. Installera beroenden:
+   npm install
+
+3. Starta utvecklingsservern:
+   npm run dev
